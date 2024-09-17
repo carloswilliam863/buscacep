@@ -9,7 +9,7 @@ void main() {
       providers: [
         ChangeNotifierProvider(create: (_) => CepController()),
       ],
-      child: MyApp(),
+      child: const MyApp(),
     ),
   );
 }
